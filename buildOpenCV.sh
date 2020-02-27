@@ -96,7 +96,7 @@ cd /usr/local/cuda/include
 sudo patch -N cuda_gl_interop.h $WHEREAMI'/patches/OpenGLHeader.patch' 
 # Clean up the OpenGL tegra libs that usually get crushed
 cd /usr/lib/aarch64-linux-gnu/
-sudo ln -sf tegra/libGL.so libGL.so
+sudo ln -sf tegra/libGL.so libGL.so"
 
 # Python 2.7
 sudo apt-get install -y python-dev python-numpy python-py python-pytest
